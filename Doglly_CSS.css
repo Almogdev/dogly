@@ -1,3 +1,19 @@
-.header{
+#game_title{
     text-align: center;
+    font-family: cursive;
+    background-color: aliceblue;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: blue;
+    
+}
+
+#game_window{
+    background-color: azure;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+#whole_site{
+    background-image: url("https://media4.giphy.com/media/xT9DPEPymVhAwi0mJy/giphy.gif?cid=ecf05e47v350fsj76kbq71n2n3z171sc1hwvriuxhjqvb6t3&ep=v1_gifs_search&rid=giphy.gif&ct=g");
 }
