@@ -8,10 +8,14 @@
 }
 
 #game_window{
+    margin-left: auto;//מירכוז ימינה
+    margin-right: auto;//מירכוז שמאלה
     background-color: azure;
     margin-left: 200px;
     margin-right: 200px;
-    
+    height: 600px;//גובהה
+    width: 1100px;//רוחב
+    //הגובהה והרוחב יחליף את כמות הרבווחים שיש בחלון המשחק 
 }
 
 #whole_site{
