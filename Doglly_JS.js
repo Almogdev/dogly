@@ -8,14 +8,31 @@ let frameY = 0;
 letGameFrame = 0;
 const staggerFrames = 5;
 
+const background1 = new Image();
+background1.src ='';
+
+class Bone{
+    constructor(){
+        this.x = 0;// העצם לא זזה לצדדים  
+        this.y = 50;// העצם נופלת ולכן כאן זרקתי מס ניתן לשינוי  
+        this.width = 100;
+        this.height = 100;
+    }
+}
+const bone = new Bone();
+
+
+
 function animate(){
     ctx.clearRect();
-    ctx.drawImage(playerImage,frameX * spritewidth, frameY * spriteheight, spritewidth, spriteheight, 0, 0,
-         spritewidth, spriteheight );
-        if (frameX )//להוסיף מספר על הציר ובו הדמות תיעצר
-        else frameX = 0;
+    ctx.drawImage ();
+        //if (frameX )//להוסיף מספר על הציר ובו הדמות תיעצר
+        //else frameX = 0;
         requestAnimationFrame(animate);
 }
 animate;
+
+
+
 
 
