@@ -1,3 +1,4 @@
+//משהו התחלתי שישתנה עוד הרבה
 const playerImage = new Image ();
 playerImage.src = '';
 const spritewidth = 500;
